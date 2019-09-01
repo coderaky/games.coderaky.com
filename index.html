@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <title>STRIDER - Online Games Portal</title>
+    <meta name="description" content="The best online portal for fun and small games">
+    <meta name="keywords" content="game, gaming, videogame, developer, steam, studio, team">
+
+    <meta property="og:site_name" content="games.coderaky.com" />
+    <meta property="og:site" content="https://games.coderaky.com" />
+    <meta property="og:title" content="STRIDER"/>
+    <meta property="og:description" content="The best place for small online games." />
+    <meta property="og:image" content="images/strider.png" />
+    <meta property="og:url" content="https://games.coderaky.com" />
+    <meta property="og:type" content="article" />
+
+    <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animations.css" rel="stylesheet">
+    <link href="css/lightbox.min.css" rel="stylesheet">
+    <link href="css/modal-video.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+<body>
+    <div id="loader-wrapper">
+        <h1 class="loader-logo"><span class="colored">S</span>TRIDER</h1>
+        <div id="progress"></div>
+        <h3 class="loader-text">LOADING</h3>
+    </div>
+    <header id="main-header">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a id="logo" class="navbar-brand" href="#"><img class="img-fluid" src="images/logo.png" alt="site logo"></a>
+                <button id="hamburger" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#games">Games</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#team">team</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <div id="hero-section" class="medium-margin">
+        <div class="row hero-unit">
+            <div class="container">
+                <div class="hero-caption">
+                    <h1>We Make Engaging<span class="colored">Online Games</span></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="about" class="large-margin">
+            <a href="about"></a>
+            <div class="row heading tiny-margin">
+                <div class="col-md-auto">
+                    <h1 class="animation-element slide-down">ABOUT <span class="colored">US</span></h1>
+                </div>
+                <div class="col">
+                    <hr class="animation-element extend">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="small-margin">We are a dedicated team of developers, designers, artists, programmers, and most importantly gaming enthusiasts.</p>
+                    <img id="awards" src="images/awards.png" class="img-fluid" alt="awads">
+                </div>
+                <div class="col-md-6">
+                    <img id="support-image" src="images/placeholder.jpg" data-src="images/digital_collage.png" class="img-fluid b-lazy" alt="digital collage">
+                </div>
+            </div>
+        </div>
+
+        <div id="games" class="large-margin">
+            <a href="games"></a>
+            <div class="row heading tiny-margin">
+                <div class="col-md-auto">
+                    <h1 class="animation-element slide-down">OUR <span class="colored">GAMES</span></h1>
+                </div>
+                <div class="col">
+                    <hr class="animation-element extend">
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-md-11 small-margin">
+                   <p>Here at Strider games we pride ourselves in delivering rich and polished experiences that our fanbase can enjoy and immerse themselve into.</p>
+                </div>
+                <div class="col-md-12">
+                    <ul class="game-tags">
+                        <li>Sort By Tag :</li>
+                        <li><a href="#" data-filter=".new">NEW</a></li>
+                        <li><a href="#" data-filter="*">ALL</a></li>
+                        <li><a href="#" data-filter=".pc">PC</a></li>
+                        <li><a href="#" data-filter=".mobile">MOBILE</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="games-portfolio ">
+
+                <div class="row game-card mobile row game-card pc">
+                    <div class="col-lg-12 col-xl-5 game-card-left">
+                        <a href="images/cube_large.jpg" data-lightbox="screenshots_dark">
+                            <div class="overlay">
+                                <i class="fa fa-picture-o fa-3x"></i>
+                            </div>
+                            <picture>
+                                <source media="(min-width: 1200px)" srcset="images/cube.jpg">
+                                <source media="(min-width: 768px)" srcset="images/cube_large.jpg">
+                                <img src="images/placeholder.jpg" data-src="images/cube.jpg" class="img-fluid b-lazy" alt="The Cube image">
+                            </picture>
+                        </a>
+                        <a href="images/cube1.jpg" data-lightbox="screenshots_dark"></a>
+                        <a href="images/cube2.jpg" data-lightbox="screenshots_dark"></a>
+                    </div>
+                    <div class="col-lg-12 col-xl-7 game-card-right">
+                        <h2 class="short-hr-left">THE CUBE</h2>
+                        <p class="tags"><span class="subtle">Puzzle | PC & Mobile</span></p>
+                        <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game2"></span></p>
+                        <a href="thecube.html" class="button-store">
+                            <i class="fa fa-gamepad fa-2x"></i>
+                            <p>LET'S <span class="strong">Play</span></p>
+                        </a>
+
+                        <div class="rating">
+                            <p class="strong">4.9</p>
+                            <ul>
+                                <li><i class="fa fa-star colored"></i></li>
+                                <li><i class="fa fa-star colored"></i></li>
+                                <li><i class="fa fa-star colored"></i></li>
+                                <li><i class="fa fa-star colored"></i></li>
+                                <li><i class="fa fa-star colored"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="row game-card pc">
+                    <div class="col-lg-12 col-xl-5 game-card-left">
+                        <a href="images/asteroids_large.jpg" data-lightbox="screenshots_dark">
+                            <div class="overlay">
+                                <i class="fa fa-picture-o fa-3x"></i>
+                            </div>
+                            <picture>
+                                <source media="(min-width: 1200px)" srcset="images/asteroids.jpg">
+                                <source media="(min-width: 768px)" srcset="images/asteroids_large.jpg">
+                                <img src="images/placeholder.jpg" data-src="images/asteroids.jpg" class="img-fluid b-lazy" alt="asteroids image">
+                            </picture>
+                        </a>
+                        <a href="images/asteroids1.jpg" data-lightbox="screenshots_dark"></a>
+                        <a href="images/asteroids2.jpg" data-lightbox="screenshots_dark"></a>
+                    </div>
+                    <div class="col-lg-12 col-xl-7 game-card-right">
+                        <h2 class="short-hr-left">ASTEROIDS</h2>
+                        <p class="tags"><span class="subtle">Arcade | PC </span></p>
+                        <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game2"></span></p>
+                        <a href="asteroids.html" class="button-store">
+                            <i class="fa fa-gamepad fa-2x"></i>
+                            <p>LET'S <span class="strong">Play</span></p>
+                        </a>
+
+                        <div class="rating">
+                            <p class="strong">4.1</p>
+                            <ul>
+                                <li><i class="fa fa-star colored"></i></li>
+                                <li><i class="fa fa-star colored"></i></li>
+                                <li><i class="fa fa-star colored"></i></li>
+                                <li><i class="fa fa-star colored"></i></li>
+                                <li><i class="fa fa-star-o"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="row game-card pc">
+                    <div class="col-lg-12 col-xl-5 game-card-left">
+                        <a href="images/arrow_large.jpg" data-lightbox="screenshots_dark">
+                            <div class="overlay">
+                                <i class="fa fa-picture-o fa-3x"></i>
+                            </div>
+                            <picture>
+                                <source media="(min-width: 1200px)" srcset="images/arrow.jpg">
+                                <source media="(min-width: 768px)" srcset="images/arrow_large.jpg">
+                                <img src="images/placeholder.jpg" data-src="images/arrow.jpg" class="img-fluid b-lazy" alt="asteroids image">
+                            </picture>
+                        </a>
+                        <a href="images/arrow1.jpg" data-lightbox="screenshots_dark"></a>
+                        <a href="images/arrow2.jpg" data-lightbox="screenshots_dark"></a>
+                    </div>
+                    <div class="col-lg-12 col-xl-7 game-card-right">
+                        <h2 class="short-hr-left">ARROW</h2>
+                        <p class="tags"><span class="subtle">Arcade | PC </span></p>
+                        <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game2"></span></p>
+                        <a href="arrow.html" class="button-store">
+                            <i class="fa fa-gamepad fa-2x"></i>
+                            <p>LET'S <span class="strong">Play</span></p>
+                        </a>
+
+                        <div class="rating">
+                            <p class="strong">4.2</p>
+                            <ul>
+                                <li><i class="fa fa-star colored"></i></li>
+                                <li><i class="fa fa-star colored"></i></li>
+                                <li><i class="fa fa-star colored"></i></li>
+                                <li><i class="fa fa-star colored"></i></li>
+                                <li><i class="fa fa-star-o"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="row game-card pc">
+                    <div class="col-lg-12 col-xl-5 game-card-left">
+                        <a href="images/rabbitrun_large.jpg" data-lightbox="screenshots_dark">
+                            <div class="overlay">
+                                <i class="fa fa-picture-o fa-3x"></i>
+                            </div>
+                            <picture>
+                                <source media="(min-width: 1200px)" srcset="images/rabbitrun.jpg">
+                                <source media="(min-width: 768px)" srcset="images/rabbitrun_large.jpg">
+                                <img src="images/placeholder.jpg" data-src="images/rabbitrun.jpg" class="img-fluid b-lazy" alt="asteroids image">
+                            </picture>
+                        </a>
+                        <a href="images/rabbitrun1.jpg" data-lightbox="screenshots_dark"></a>
+                        <a href="images/rabbitrun2.jpg" data-lightbox="screenshots_dark"></a>
+                    </div>
+                    <div class="col-lg-12 col-xl-7 game-card-right">
+                        <h2 class="short-hr-left">RABBIT RUN</h2>
+                        <p class="tags"><span class="subtle">Arcade | PC </span></p>
+                        <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game2"></span></p>
+                        <a href="arrow.html" class="button-store">
+                            <i class="fa fa-gamepad fa-2x"></i>
+                            <p>LET'S <span class="strong">Play</span></p>
+                        </a>
+
+                        <div class="rating">
+                            <p class="strong">5.0</p>
+                            <ul>
+                                <li><i class="fa fa-star colored"></i></li>
+                                <li><i class="fa fa-star colored"></i></li>
+                                <li><i class="fa fa-star colored"></i></li>
+                                <li><i class="fa fa-star colored"></i></li>
+                                <li><i class="fa fa-star colored"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="row game-card pc">
+                    <div class="col-lg-12 col-xl-5 game-card-left">
+                        <a href="images/chess_large.jpg" data-lightbox="screenshots_dark">
+                            <div class="overlay">
+                                <i class="fa fa-picture-o fa-3x"></i>
+                            </div>
+                            <picture>
+                                <source media="(min-width: 1200px)" srcset="images/chess.jpg">
+                                <source media="(min-width: 768px)" srcset="images/chess_large.jpg">
+                                <img src="images/placeholder.jpg" data-src="images/chess.jpg" class="img-fluid b-lazy" alt="asteroids image">
+                            </picture>
+                        </a>
+                        <a href="images/chess1.jpg" data-lightbox="screenshots_dark"></a>
+                        <a href="images/chess2.jpg" data-lightbox="screenshots_dark"></a>
+                    </div>
+                    <div class="col-lg-12 col-xl-7 game-card-right">
+                        <h2 class="short-hr-left">CHESS</h2>
+                        <p class="tags"><span class="subtle">Puzzle | PC </span></p>
+                        <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game2"></span></p>
+                        <a href="arrow.html" class="button-store">
+                            <i class="fa fa-gamepad fa-2x"></i>
+                            <p>LET'S <span class="strong">Play</span></p>
+                        </a>
+
+                        <div class="rating">
+                            <p class="strong">4.4</p>
+                            <ul>
+                                <li><i class="fa fa-star colored"></i></li>
+                                <li><i class="fa fa-star colored"></i></li>
+                                <li><i class="fa fa-star colored"></i></li>
+                                <li><i class="fa fa-star colored"></i></li>
+                                <li><i class="fa fa-star-o"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="row game-card pc row game-card mobile">
+                    <div class="col-lg-12 col-xl-5 game-card-left">
+                        <a href="images/stack_large.jpg" data-lightbox="screenshots_dark">
+                            <div class="overlay">
+                                <i class="fa fa-picture-o fa-3x"></i>
+                            </div>
+                            <picture>
+                                <source media="(min-width: 1200px)" srcset="images/stack.jpg">
+                                <source media="(min-width: 768px)" srcset="images/stack_large.jpg">
+                                <img src="images/placeholder.jpg" data-src="images/stack.jpg" class="img-fluid b-lazy" alt="asteroids image">
+                            </picture>
+                        </a>
+                        <a href="images/stack1.jpg" data-lightbox="screenshots_dark"></a>
+                        <a href="images/stack2.jpg" data-lightbox="screenshots_dark"></a>
+                    </div>
+                    <div class="col-lg-12 col-xl-7 game-card-right">
+                        <h2 class="short-hr-left">STACK</h2>
+                        <p class="tags"><span class="subtle">Arcade | PC & mobile </span></p>
+                        <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game2"></span></p>
+                        <a href="arrow.html" class="button-store">
+                            <i class="fa fa-gamepad fa-2x"></i>
+                            <p>LET'S <span class="strong">Play</span></p>
+                        </a>
+
+                        <div class="rating">
+                            <p class="strong">4.4</p>
+                            <ul>
+                                <li><i class="fa fa-star colored"></i></li>
+                                <li><i class="fa fa-star colored"></i></li>
+                                <li><i class="fa fa-star colored"></i></li>
+                                <li><i class="fa fa-star colored"></i></li>
+                                <li><i class="fa fa-star-o"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+                <div class="row game-card pc">
+                    <div class="col-lg-12 col-xl-5 game-card-left">
+                        <a href="images/basketball_large.jpg" data-lightbox="screenshots_dark">
+                            <div class="overlay">
+                                <i class="fa fa-picture-o fa-3x"></i>
+                            </div>
+                            <picture>
+                                <source media="(min-width: 1200px)" srcset="images/basketball.jpg">
+                                <source media="(min-width: 768px)" srcset="images/basketball_large.jpg">
+                                <img src="images/placeholder.jpg" data-src="images/basketball.jpg" class="img-fluid b-lazy" alt="asteroids image">
+                            </picture>
+                        </a>
+                        <a href="images/basketball1.jpg" data-lightbox="screenshots_dark"></a>
+                        <a href="images/basketball2.jpg" data-lightbox="screenshots_dark"></a>
+                    </div>
+                    <div class="col-lg-12 col-xl-7 game-card-right">
+                        <h2 class="short-hr-left">BASKETBALL</h2>
+                        <p class="tags"><span class="subtle">Arcade | PC </span></p>
+                        <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game2"></span></p>
+                        <a href="arrow.html" class="button-store">
+                            <i class="fa fa-gamepad fa-2x"></i>
+                            <p>LET'S <span class="strong">Play</span></p>
+                        </a>
+
+                        <div class="rating">
+                            <p class="strong">4.0</p>
+                            <ul>
+                                <li><i class="fa fa-star colored"></i></li>
+                                <li><i class="fa fa-star colored"></i></li>
+                                <li><i class="fa fa-star colored"></i></li>
+                                <li><i class="fa fa-star colored"></i></li>
+                                <li><i class="fa fa-star-o"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="row game-card pc">
+                    <div class="col-lg-12 col-xl-5 game-card-left">
+                        <a href="images/slider_large.jpg" data-lightbox="screenshots_dark">
+                            <div class="overlay">
+                                <i class="fa fa-picture-o fa-3x"></i>
+                            </div>
+                            <picture>
+                                <source media="(min-width: 1200px)" srcset="images/slider.jpg">
+                                <source media="(min-width: 768px)" srcset="images/slider_large.jpg">
+                                <img src="images/placeholder.jpg" data-src="images/slider.jpg" class="img-fluid b-lazy" alt="asteroids image">
+                            </picture>
+                        </a>
+                        <a href="images/slider1.jpg" data-lightbox="screenshots_dark"></a>
+                        <a href="images/slider2.jpg" data-lightbox="screenshots_dark"></a>
+                    </div>
+                    <div class="col-lg-12 col-xl-7 game-card-right">
+                        <h2 class="short-hr-left">SLIDER</h2>
+                        <p class="tags"><span class="subtle">Arcade | PC </span></p>
+                        <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game2"></span></p>
+                        <a href="arrow.html" class="button-store">
+                            <i class="fa fa-gamepad fa-2x"></i>
+                            <p>LET'S <span class="strong">Play</span></p>
+                        </a>
+
+                        <div class="rating">
+                            <p class="strong">4.0</p>
+                            <ul>
+                                <li><i class="fa fa-star colored"></i></li>
+                                <li><i class="fa fa-star colored"></i></li>
+                                <li><i class="fa fa-star colored"></i></li>
+                                <li><i class="fa fa-star colored"></i></li>
+                                <li><i class="fa fa-star-o"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="row game-card pc">
+                    <div class="col-lg-12 col-xl-5 game-card-left">
+                        <a href="images/snake_large.jpg" data-lightbox="screenshots_dark">
+                            <div class="overlay">
+                                <i class="fa fa-picture-o fa-3x"></i>
+                            </div>
+                            <picture>
+                                <source media="(min-width: 1200px)" srcset="images/snake.jpg">
+                                <source media="(min-width: 768px)" srcset="images/snake_large.jpg">
+                                <img src="images/placeholder.jpg" data-src="images/snake.jpg" class="img-fluid b-lazy" alt="asteroids image">
+                            </picture>
+                        </a>
+                        <a href="images/snake1.jpg" data-lightbox="screenshots_dark"></a>
+                        <a href="images/snake2.jpg" data-lightbox="screenshots_dark"></a>
+                    </div>
+                    <div class="col-lg-12 col-xl-7 game-card-right">
+                        <h2 class="short-hr-left">SNAKE</h2>
+                        <p class="tags"><span class="subtle">Arcade | PC </span></p>
+                        <p class="game-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis rhoncus nibh. Phasellus dignissim luctus consectetur. Fusce viverra est non purus ultrices, vel molestie massa tincidunt. <span class="expand colored strong" data-toggle="modal" data-target="#game2"></span></p>
+                        <a href="arrow.html" class="button-store">
+                            <i class="fa fa-gamepad fa-2x"></i>
+                            <p>LET'S <span class="strong">Play</span></p>
+                        </a>
+
+                        <div class="rating">
+                            <p class="strong">4.0</p>
+                            <ul>
+                                <li><i class="fa fa-star colored"></i></li>
+                                <li><i class="fa fa-star colored"></i></li>
+                                <li><i class="fa fa-star colored"></i></li>
+                                <li><i class="fa fa-star colored"></i></li>
+                                <li><i class="fa fa-star-o"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+        </div>
+
+
+
+
+
+        <div id="team" class="large-margin">
+            <a href="team"></a>
+            <div class="row heading tiny-margin">
+                <div class="col-md-auto">
+                    <h1 class="animation-element slide-down">THE <span class="colored">TEAM</span></h1>
+                </div>
+                <div class="col">
+                    <hr class="animation-element extend">
+                </div>
+            </div>
+            <div class="row medium-margin">
+                <div class="col-md-11 tiny-margin">
+                    <p>Our passion unites us.</p>
+                </div>
+                <div id="full-row" class="row text-center">
+                    <div class="col-md-3 team-card">
+                        <figure>
+                            <img src="images/placeholder.jpg" data-src="images/team1.jpg" class="img-fluid b-lazy" alt="teammember">
+                            <figcaption class="team-caption">
+                                <p>“Hard work pays off...”</p>
+                                <hr class="hr-short">
+                                <ul>
+                                    <li><a href="https://www.facebook.com/coderaky"><i class="fa fa-facebook fa-lg"></i></a></li>
+                                    <li><a href="https://www.instagram.com/coderaky"><i class="fa fa-instagram fa-lg"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/in/coder-aky"><i class="fa fa-linkedin fa-lg"></i></a></li>
+                                </ul>
+                            </figcaption>
+                        </figure>
+                        <p class="team-name">Abhishek Kumar Yadav.</p>
+                        <p class="subtle">Founder & Progammer</p>
+                    </div>
+
+                    <div class="col-md-3 team-card">
+                        <figure>
+                            <img src="images/placeholder.jpg" data-src="images/team3.jpg" class="img-fluid b-lazy" alt="teammember">
+                            <figcaption class="team-caption">
+                                <p>“Just keep moving...”</p>
+                                <hr class="hr-short">
+                            </figcaption>
+                        </figure>
+                        <p class="team-name">Avinash</p>
+                        <p class="subtle">Lead Designer</p>
+                    </div>
+
+                    <div class="col-md-3 team-card">
+                        <figure>
+                            <img src="images/placeholder.jpg" data-src="images/team2.jpg" class="img-fluid b-lazy" alt="teammember">
+                            <figcaption class="team-caption">
+                                <p>“Enjoy the life...”</p>
+                                <hr class="hr-short">
+                                <ul>
+                                    <li><a href="https://twitter.com/borissehovac"><i class="fa fa-twitter fa-lg"></i></a></li>
+                                    <li><a href="https://www.instagram.com/bsehovac/"><i class="fa fa-instagram fa-lg"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/in/boris-šehovac-0270bb80"><i class="fa fa-linkedin fa-lg"></i></a></li>
+                                </ul>
+                            </figcaption>
+                        </figure>
+                        <p class="team-name">Boris Šehovac</p>
+                        <p class="subtle">Top Contributor</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row tiny-margin">
+                <div class="col-md-11">
+                    <h2 class="short-hr-left">WE LOVE CONTRIBUTION</h2>
+                    <p>If want to contribute a game to our online portal get in touch with US...</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="short-hr-center">OUR NEWSLETTER</h2>
+                    <p>Stay up to date with the team and our products by subscribing to our newsletter.</p>
+                    <form id="newsletter" data-toggle="validator">
+                        <input type="email" id="emailsign" placeholder="Your email adress">
+                        <button type="submit" id="form-signup" class="button">SUBSCRIBE</button>
+                        <div id="msgSignup" class="h3 text-center hidden"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div id="contact" class="large-margin">
+            <a href="contact"></a>
+            <div class="row heading tiny-margin">
+                <div class="col-md-auto">
+                    <h1 class="animation-element slide-down">GET IN <span class="colored">TOUCH</span></h1>
+                </div>
+                <div class="col">
+                    <hr class="animation-element extend">
+                </div>
+            </div>
+            <div class="">
+                <div class="row small-margin">
+                    <div class="col-md-11">
+                        <p>We would love to hear from you.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2 class="short-hr-left">LEAVE US A MESSAGE</h2>
+                        <form id="contactForm" data-toggle="validator">
+                            <div class="form-group">
+                                <input type="text" id="name" placeholder="Name*" required size="35" data-error="Name is required">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" placeholder="Email*" required size="35" data-error="Email is required">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" name="message" placeholder="Message*" required data-error="Message cannot be empty"></textarea>
+                                <p class="subtle">* required field</p>
+                                <div class="help-block with-errors"></div>
+                                <button type="submit" class="button">SEND MESSAGE</button>
+                                <div id="msgSubmit" class="text-center hidden"></div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="short-hr-left">OUR DETAILS</h2>
+                        <div id="contact-info">
+                            <ul>
+                                <li><i class="fa fa-phone"></i><p>Phone: <span class="colored"><a href="tel:9453457386">+91 9453457386</a></span></p></li>
+                                <li><i class="fa fa-envelope"></i><p>Email: <span class="colored"><a href="mailto:hello@coderaky.com">hello@coderaky.com</a></span></p></li>
+                                <li><i class="fa fa-globe"></i><p>Website: <span class="colored"><a href="https://www.coderaky.com" target="_blank"> coderaky.com</a></span></p></li>
+                                <li><i class="fa fa-map-marker"></i><p>Address: <span class="colored">Gorakhpur, India - 273010</span></p></li>
+                            </ul>
+                        </div>
+
+                        <div id="map-canvas"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer id="main-footer">
+        <div id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p id="copyright">&copy; Coderaky <span id="year"> </span></p>
+                        <ul class="social-links">
+                            <li><a href="https://www.facebook.com/coderaky"><i class="fa fa-facebook fa-lg icon-social"></i></a></li>
+                            <li><a href="https://twitter.com/coder_aky"><i class="fa fa-twitter  fa-lg icon-social"></i></a></li>
+                            <li><a href="https://github.com/coder-aky"><i class="fa fa-github fa-lg icon-social"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/coder-aky"><i class="fa fa-linkedin fa-lg icon-social"></i></a>
+                            <li><a href="https://www.instagram.com/coderaky"><i class="fa fa-instagram fa-lg icon-social"></i></a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/blazy.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
+    <script src="js/jquery-modal-video.min.js"></script>
+    <script src="js/validator.min.js"></script>
+    <script src="js/strider.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB64kJJiSynOc9ZqkNMOyl94cvsw5Z2uno"></script>
+</body>
+</html>
