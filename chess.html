@@ -45,6 +45,33 @@ button {
 
 body:not(.animated) *:not(#panes) { transition: all 0s linear; }
 
+#credits {
+  position: absolute;
+  width: 100%;
+  margin: auto;
+  bottom: 0;
+  /* margin-bottom: 20px; */
+  font-family: 'Voltaire', sans-serif;
+  color: #544027;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  text-align: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+#credits a {
+  color: #544027;
+}
+
+#credits a:hover {
+  color: #dc5f45;
+}
+
+
 #app {
   position: absolute;
   width: 100%;
@@ -1341,19 +1368,19 @@ tfoot th:last-child   { background-position: right bottom; background-size: 332%
           </section>
           <section id="main" class="pane">
             <h1>STRIDER : 3D CHESS</h1>
-            <p>Follow us at instagram <a href="https://www.instagram.com/coderaky" target="_blank">@coderaky</a></p>
+            <div id="credits">
+              <p>Follow us at :<a href="https://www.instagram.com/coderaky" target="blank">Instagram</a> | <a href="https://www.facebook.com/coderaky" target="blank">Facebook</a> | <a href="https://www.linkedin.com/in/coder-aky" target="blank">Linkedin</a></p>
+            </div>
             <button type="button" class="btn white menu-nav" data-menu="themes">Themes
             <button type="button" id="continue" class="btn">Play
             <button type="button" class="btn white menu-nav" data-menu="about">About
           </section>
           <section id="about" class="pane">
             <h1>About</h1>
-            <p>Follow us at instagram <a href="https://www.instagram.com/coderaky" target="_blank">@coderaky</a></p>
+            <div id="credits">
+              <p>Follow us at :<a href="https://www.instagram.com/coderaky" target="blank">Instagram</a> | <a href="https://www.facebook.com/coderaky" target="blank">Facebook</a> | <a href="https://www.linkedin.com/in/coder-aky" target="blank">Linkedin</a></p>
+            </div>
             <p>Works only in webkit.</p>
-            <p>Licensed under the MIT license.</p>
-            <h2>Libraries</h2>
-            <p>Lighting effect : <a href="http://photon.attasi.com" target="_blank">Photon</a><br>
-              Moves and validation : <a href="https://github.com/jhlywa/chess.js" target="_blank">Chess.js</a></p>
             <button type="button" class="btn menu-nav" data-menu="main">Back</button>
           </section>
         </div>
